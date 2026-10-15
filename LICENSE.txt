@@ -1,0 +1,8 @@
+SimuESP Studio(TM)
+Copyright (c) 2026 Leon Angel. Todos los derechos reservados.
+
+Esta obra (codigo, diseno, interfaz, textos y nombre "SimuESP") es creacion original de Leon Angel.
+No se permite copiar, modificar, vender, publicar ni redistribuir total o parcialmente
+sin autorizacion previa y por escrito del autor.
+
+ID de autoria: SIMUESP-LEONANGEL-2026

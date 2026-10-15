@@ -1,0 +1,37 @@
+{
+  "name": "simuesp-studio",
+  "version": "3.6.0",
+  "description": "SimuESP Studio - simulador de electrónica para placas ESP32",
+  "author": "León Ángel",
+  "license": "UNLICENSED",
+  "copyright": "© 2026 León Ángel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "33.2.1",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "com.simuesp.studio",
+    "copyright": "© 2026 León Ángel. SimuESP™",
+    "productName": "SimuESP Studio",
+    "files": ["main.js", "index.html", "package.json"],
+    "directories": { "output": "dist" },
+    "win": {
+      "target": [
+        { "target": "nsis", "arch": ["x64"] },
+        { "target": "portable", "arch": ["x64"] }
+      ],
+      "artifactName": "SimuESP-Studio-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}

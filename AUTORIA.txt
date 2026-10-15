@@ -1,0 +1,13 @@
+COMO PROBAR QUE SimuESP ES TUYO (guia practica, no es asesoria legal)
+
+1. El derecho de autor existe desde que creas la obra. Lo que ayuda es poder DEMOSTRAR la fecha y que eres el autor.
+2. Guarda pruebas con fecha:
+   - Sube cada version a un repositorio de GitHub (el historial de commits queda con fecha).
+   - Conserva este zip original y las capturas del desarrollo.
+   - Envia el zip por correo a ti mismo (queda la fecha del servidor).
+3. Registro formal (recomendado si quieres proteccion fuerte):
+   - Obra: registra el software en la oficina de derechos de autor de tu pais.
+   - Marca: registra "SimuESP" en la oficina de marcas de tu pais. Solo despues de ese registro puedes usar el simbolo R en vez de TM.
+4. Dentro de la app ya van: nombre del autor, (c), TM, ID de autoria SIMUESP-LEONANGEL-2026,
+   pantalla "Acerca de" (toca el nombre SimuESP) y los datos en cada proyecto exportado.
+Consulta con un abogado o con la oficina de tu pais los requisitos exactos.
